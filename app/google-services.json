@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "475986908409",
+    "project_id": "buzzer-c6db4",
+    "storage_bucket": "buzzer-c6db4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:475986908409:android:7578dedb54c7f8f0e13e28",
+        "android_client_info": {
+          "package_name": "com.bitwisor.buzzer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "475986908409-8pa647s02s2s6br646rj1la7b59npolk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2dhrb8V4ELXnvlUuNmD3bOqDqeYQ2KjY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "475986908409-8pa647s02s2s6br646rj1la7b59npolk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
