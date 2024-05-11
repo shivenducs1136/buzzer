@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAM buzzer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h1, h4 {
+            text-align: left;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        ul {
+            list-style-type: square;
+            margin-left: 20px;
+        }
+        p {
+            margin: 10px 0;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://raw.githubusercontent.com/shivenducs1136/buzzer/main/Group%201%20(2).png" alt="me">
+        </a>
+        <h1>JAM buzzer</h1>
+        <h4>Join Room, Create Room, Hit the buzzer!</h4>
+
+        <h2>Problem Statement</h2>
+        <p>This application is specifically designed for the English/Hindi JAM event, which is hosted by Odyssey, the college's literary society. Participants are given a topic to speak on, and if they stumble, the person who buzzes the buzzer will speak in his place and the points will be added.</p>
+
+        <h2>Functionalities</h2>
+        <ul>
+            <li>Room Admin can create rooms with Unique Room Codes.</li>
+            <li>Admin can share the Room Codes to their participants.</li>
+            <li>Admin can kick participant from Room.</li>
+            <li>Admin can enable the Buzzer for the participants.</li>
+            <li>Admin can Reset the Score.</li>
+            <li>Admin can view the Leaderboard.</li>
+            <li>Participants can enter in the room by entering their names and room codes.</li>
+            <li>Participants can wait for the buzzer to be enabled.</li>
+            <li>Participants can Buzz the Buzzer whenever they needed.</li>
+            <li>Participants can leave the room anytime they want.</li>
+        </ul>
+
+        <h2>Instructions to run</h2>
+        <h3>Pre-requisites:</h3>
+        <ul>
+            <li>Android Studio v4.0</li>
+            <li>A working Android physical device or emulator with USB debugging enabled</li>
+        </ul>
+
+        <h3>Directions to setup/install</h3>
+        <ul>
+            <li>Clone this repository to your local storage using Git bash:</li>
+        </ul>
+        <pre>
+            <code >
+                https://github.com/shivenducs1136/buzzer
+            </code>
+        </pre>
+        <ul>
+            <li>Open this project from Android Studio</li>
+            <li>Connect to an Android physical device or emulator</li>
+            <li>To install the app into your device, run the following using command line tools:</li>
+        </ul>
+        <pre><code>gradlew installDebug</code></pre>
+
+        <h3>Directions to execute</h3>
+        <ul>
+            <li>To launch hands free, run the following using command line tools:</li>
+        </ul>
+        <pre><code>adb shell monkey -p com.bitwisor.buzzer -c android.intent.category.LAUNCHER 1</code></pre>
+
+        <h2>Built with</h2>
+        <ul>
+            <li>Kotlin</li>
+            <li>XML</li>
+            <li>Firebase</li>
+        </ul>
+
+        <h2>Contributors</h2>
+        <ul>
+            <li><a href="https://github.com/shivenducs1136">Shivendu</a></li>
+        </ul>
+
+        <p>Made during 🌙 by Shivendu Mishra</p>
+    </div>
+</body>
+</html>
